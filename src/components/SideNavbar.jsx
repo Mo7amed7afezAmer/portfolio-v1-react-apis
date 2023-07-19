@@ -15,7 +15,7 @@ const SideNavbar = (props) => {
                         return (
                             <li key={ el }>
                                 <a 
-                                href={`/${el}`} 
+                                href={`${el}`} 
                                 key={el}
                                 className={ isActive == el ? "active" : null } 
                                 onClick={ () => setActive(el) }

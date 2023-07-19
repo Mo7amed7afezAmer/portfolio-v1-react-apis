@@ -44,7 +44,7 @@ function App() {
                   asideLinks &&
                   asideLinks.map((el) => {
                     return (
-                      <Route path={`${el}`} Component={ Portfolio } key={ el }></Route>
+                      <Route path={`/${el}`} Component={ Portfolio } key={ el }></Route>
                     )
                   })
                 }
